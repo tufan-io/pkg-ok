@@ -1,18 +1,17 @@
-# pkg-ok [![Build Status](https://img.shields.io/travis/typicode/pkg-ok.svg)](https://travis-ci.org/typicode/pkg-ok) [![npm](https://img.shields.io/npm/v/pkg-ok.svg)](https://www.npmjs.com/package/pkg-ok)
+# @tufan-io/pkg-ok 
+[![action-ci](https://github.com/tufan-io/pkg-ok/actions/workflows/.action_ci.yml/badge.svg)](https://github.com/tufan-io/pkg-ok/actions/workflows/.action_ci.yml)
+
+> Forked from [typicode/pkg-ok](https://github.com/typicode/pkg-ok) to add maintainance updates
 
 > `pkg-ok` checks paths and scripts defined in `package.json` before you publish 👌
 
 * Ensures paths defined in `main`, `bin`, `module`, `types`, `typings`, `es2015` and `browser` exist
 * Ensures `bin` scripts use cross-platform line endings
 
-<a href="https://www.patreon.com/typicode">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
-
 ## Usage
 
 ```sh
-npm install pkg-ok --save-dev
+npm install @tufan-io/pkg-ok --save-dev
 ```
 
 ```js
